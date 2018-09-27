@@ -202,7 +202,7 @@ export default class Dashboard extends React.PureComponent{
                         </Content>
 
                         <Footer style={{ textAlign: 'center' }}>
-                            Copyright ©2018 Created by SCCA
+                            Copyright ©2018 Created by YDD
                         </Footer>
 
                     </Layout>
