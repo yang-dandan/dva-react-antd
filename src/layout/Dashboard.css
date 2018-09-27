@@ -1,0 +1,40 @@
+.logo{
+    height: 32px;
+    background: rgb(255, 255, 255,.2);
+    margin:16px;
+}
+.header{
+    background: #fff;
+    padding:0;
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+
+  .content{
+      margin:24px 16px;
+      padding:24px;
+      background: #fff;
+      min-height: 280px;
+  }
+
+.layout{
+    min-height:100%;
+}
+
+.projName{
+    font-size: 20px;
+    padding:0 20px;
+    display: inline-block;
+}
+
+.profile{
+    float: right;
+    margin-right: 40px;
+    display: block;
+}

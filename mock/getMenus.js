@@ -1,0 +1,64 @@
+const menuData = [
+
+    {
+        
+        name:"系统管理",
+        code:"setting",
+        icon:"setting",
+        path:"",
+        children:[
+            {
+                name:"用户管理",
+                code:"user",
+                icon:"frown",
+                path:"/#/UserManager"
+            },
+            {
+                name:"角色管理",
+                code:"role",
+                icon:"frown",
+                path:"/#/test"
+            },
+            {
+                name:"参数管理",
+                code:"parameter",
+                icon:"frown",
+                path:"/parameter"
+            },
+            {
+                name:"通知公告",
+                code:"notice",
+                icon:"frown",
+                path:"/notice"
+            },
+            {
+                name:"字典管理",
+                code:"dict",
+                icon:"frown",
+                path:"/dict"
+            }
+        ]
+    },
+    {
+        name:"日志管理",
+        code:"logging",
+        icon:"setting",
+        path:"",
+        children:[
+            {
+                name:"操作日志",
+                code:"operatorLog",
+                icon:"frown",
+                path:"/operatorLog"
+            },
+            {
+                name:"登录日志",
+                code:"loginLog",
+                icon:"frown",
+                path:"/loginLog"
+            }
+        ]
+    }
+]
+
+export default {menuData};
